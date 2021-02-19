@@ -8,7 +8,7 @@ int main()
 	scanf("%s", str);
 
 	//Write your code here
-  for(i=0;str[i]!=0;i++){
+  for(i=0;str[i]!='\0';i++){
     if( str[i]=='a' ||
         str[i]=='A' ||
         str[i]=='E' ||
